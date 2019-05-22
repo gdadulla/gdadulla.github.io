@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Germaine Dadulla - Home </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link href="INF201-FINAL.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+  <!--Div for the title of the site-->
+
+  <div class="head">
+    <h1> Germaine Dadulla </h1>
+  </div>
+
+  <div class="nav">
+    <div class="navItems">
+      <a href="INF201-FINAL-DRAFT1.html"> home </a>
+    </div>
+    <div class="navItems">
+      <a href="INF201-FINAL-WORK.html"> work </a>
+    </div>
+    <div class="navItems">
+      <a href="INF201-FINAL-ABOUT.html"> about me </a>
+    </div>
+  </div>
+
+
+    <!-- divs for the slideshow showcase -->
+  <div class="container">
+    <img class="slides" src="pictures_INF201/1.JPG" alt="1">
+    <img class="slides" src="pictures_INF201/2.jpg" alt="2">
+    <img class="slides" src="pictures_INF201/3.jpg" alt="3">
+    <img class="slides" src="pictures_INF201/4.jpg" alt="4">
+    <img class="slides" src="pictures_INF201/5.jpg" alt="5">
+  </div>
+
+  <!-- Script to auto play set of pictures in the container div, shoutout to W3Schools https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+  <script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(slideshow, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

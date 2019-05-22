@@ -1,0 +1,180 @@
+/* css for the body, changes the background color and font*/
+body{
+  background-color: #fdfd96;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* css for the head*/
+.head{
+
+  margin-bottom: 0px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.head h1{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.imageContainer{
+  margin: 0px 0px 8px 0px;
+}
+
+.imageHover{
+  margin: 0px 0px 8px 0px;
+  text-align: center;
+  position: relative;
+
+}
+
+.imageHover:hover .overlay {
+  opacity: 1;
+}
+
+.javascript{
+  text-align: center;
+  margin:auto;
+  padding-bottom: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgb(0,0,0,0.8);
+  cur
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* css for the nav and nav bar*/
+.nav{
+
+  text-align: center;
+  margin: auto;
+
+  width: 50%;
+  position: relative;
+}
+
+.navItems{
+
+  float: left;
+  text-align: center;
+  width: 33%;
+  margin:auto;
+}
+
+.navItems a {
+
+  text-decoration: none;
+  color: grey;
+}
+
+/* css for the work title */
+.title{
+  clear:none;
+  margin:auto;
+  text-align: center;
+  padding-top:20px;
+}
+
+/* css for the slideshow on the homepage */
+.slides{
+  width:100%;
+  height:100%;
+}
+
+.slides img{
+  image-orientation: from-image;
+}
+
+/* css for the image grids */
+.row {
+  z-index: -1;
+  position: absolute;
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px 4px;
+}
+
+.column {
+  display:inline-block;
+  flex: 33;
+  max-width: 33.33%;
+  max-height: 70%;
+  padding: 0px 4px;
+}
+
+.column img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+.container{
+  clear: both;
+  padding:10px;
+  max-width: 40%;
+  max-height: 60%;
+  height:40%;
+  margin:auto;
+
+}
+
+.contact{
+  clear: both;
+  text-align: center;
+  padding-left: 50px;
+  margin: auto;
+}
+.about{
+  display: inline-block;
+  padding: 25px;
+  text-align: center;
+  float: left;
+  padding-left: 50px;
+  margin: auto;
+}
+
+.wrapper{
+
+  text-align: center;
+  position: none;
+}
+
+/* media query for iphones */
+@media(max-width: 575px){
+  .head{font-size: 60%; height: 80px; padding-right: 5px;}
+  .nav{width:68%;}
+  .navItems{width: 30%; font-size: 90%;}
+  .column {
+   flex: 100%;
+   max-width: 100%;
+  }
+  .overlay{
+    max-width: 100%;
+  }
+  .container{max-height: 300px;}
+}
