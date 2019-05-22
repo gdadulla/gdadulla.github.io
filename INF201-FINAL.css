@@ -116,7 +116,7 @@ body{
   text-align:center;
   display: flex;
   flex-wrap: wrap;
-  padding: 35px 4px;
+  padding: 4px 4px;
 }
 
 .column {
@@ -158,6 +158,18 @@ body{
   margin: auto;
 }
 
+.me{
+  float:right;
+  text-align: center;
+  margin-right: 10%;
+  margin-top:20px;
+}
+
+.aboutme{
+  float:left;
+  margin-left: 10%;
+}
+
 .wrapper{
 
   text-align: center;
@@ -166,9 +178,9 @@ body{
 
 /* media query for iphones */
 @media(max-width: 575px){
-  .head{font-size: 60%; height: 80px; padding-right: 5px;}
-  .nav{width:68%;}
-  .navItems{width: 30%; font-size: 90%;}
+  .head{font-size: 30px; width: 100%;}
+  .nav{width:100%;}
+  .navItems{width: 33%; font-size: 90%;}
   .column {
    flex: 100%;
    max-width: 100%;
@@ -177,4 +189,24 @@ body{
     max-width: 100%;
   }
   .container{max-height: 300px;}
+  .about{
+
+    float:none;
+    display: block;
+    padding: 5px 0px;
+  }
+  .contact{
+
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .me{
+    float:none;
+    margin: 0px;
+  }
+
+  .aboutme{
+    margin: 0px;
+    float:none;
+  }
 }
