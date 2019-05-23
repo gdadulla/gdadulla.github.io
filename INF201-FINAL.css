@@ -187,7 +187,7 @@ body{
   }
   .row{
     position: relative;
-
+    z-index: 0;
   }
   .overlay{
     max-width: 100%;
