@@ -185,6 +185,10 @@ body{
    flex: 100%;
    max-width: 100%;
   }
+  .row{
+    position: relative;
+
+  }
   .overlay{
     max-width: 100%;
   }
