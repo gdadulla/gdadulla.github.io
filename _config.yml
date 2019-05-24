@@ -19,3 +19,4 @@ social-network-links:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
