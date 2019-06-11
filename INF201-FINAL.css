@@ -279,12 +279,12 @@ body{
 .container{
   clear: both;
   padding:10px;
-
+  max-height: 50%;
   max-width: 29%;
   padding-top: 50px;
   margin:auto;
   position: absolute;
-  left: 16%;
+  left: 13%;
   right:13%;
   z-index: -1;
 }
