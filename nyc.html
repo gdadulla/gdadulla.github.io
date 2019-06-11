@@ -5,7 +5,21 @@
   <title> Germaine Dadulla - NYC </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-    <link href="INF201-FINAL.css" type="text/css" rel="stylesheet"/>
+  <link rel="icon" href="camera.png">
+  <meta name="description" content="New York City photoset.">
+  <meta name="keywords" content="germaine, dadulla, germaine dadulla, photography, analog, film, portrait, street, street photography">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="camera.png">
+  <link href="INF201-FINAL.css" type="text/css" rel="stylesheet"/>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140826489-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140826489-1');
+  </script>
 </head>
 
 <body>
@@ -15,17 +29,49 @@
   </div>
 
   <!--Div for the navbar-->
-  <div class="nav">
-    <div class="navItems">
-      <a href="index.html"> home </a>
+    <nav>
+  <div class="nav-mobile">
+  <input type="checkbox" id="button"/>
+  <label id="nav-toggle" for="button">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+  <ul class="navlist">
+  <li class="navItems">
+    <a href="index.html"> home </a>
+  </li>
+  <li class="navItems">
+    <div class="work">
+      <input type="checkbox" id="button2"/>
+      <label id="work-toggle" for="button2">
+      <span></span>
+      <span></span>
+    </label>
+    <a href="work.html"> work </a>
+    <ul class="children">
+      <li> <a href="nyc.html"> NYC </a> </li>
+      <li> <a href="faces.html"> Faces </a> </li>
+      <li> <a href="ualbany.html"> University </a> </li>
+      <li> Concert Stuff </li>
+      <li> Catskills </li>
+      <li> <a href="albany.html"> Albany </a> </li>
+      <li> <a href="trailblazers.html"> Trailblazers </a> </li>
+      <li> <a href="dippikill.html"> Dippikill </a> </li>
+      <li> <a href="cedargrove.html"> Cedar Grove </a> </li>
+      <li> <a href="misc.html"> Misc </a> </li>
+    </ul>
     </div>
-    <div class="navItems">
-      <a href="work.html"> work </a>
-    </div>
-    <div class="navItems">
-      <a href="about.html"> about me </a>
-    </div>
-  </div>
+  </li>
+
+  <li class="navItems">
+    <a href="about.html"> about me </a>
+  </li>
+
+</ul>
+</div>
+
+</nav>
 
 
 
