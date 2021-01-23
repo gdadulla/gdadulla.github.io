@@ -14,13 +14,15 @@ function Resume() {
 
   return (
     <>
-    <div className="hero-container">
-    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+   
 
     <animated.div style={props2}></animated.div>
 
-        <h1> Resume </h1>
+       
         <MobileView maxDeviceWidth={440}>
+        <div className="hero-container">
+        <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+    <h1> Resume </h1>
         <div className="content"> 
     <h3> Soft Skills</h3>
     <ul> 
@@ -76,10 +78,13 @@ function Resume() {
         </ul>
     </ul>
     </div>
-
+    </div>
         </MobileView>
 
         <BrowserView>
+        <div className="hero-container">
+    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+    <h1> Resume </h1>
         <animated.div
         class="card"
         onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
@@ -143,10 +148,11 @@ function Resume() {
     </div>
     
     </animated.div>
+    </div>
         </BrowserView>
         
         
-    </div>
+
     
   
     

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {BrowserView, MobileView} from 'react-device-detect';
 import { useSpring, animated } from 'react-spring';
 import Component1 from '../components/coverAnimations/Component1';
 import Component2 from '../components/coverAnimations/Component2';
@@ -15,6 +16,26 @@ function Cover() {
   
   return (
     <>
+    <MobileView>
+    <div className="hero-container">
+    
+    <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+        <div>
+        <Component1  />
+        </div>
+        <div>
+        <Component2 />
+        </div>
+        
+
+       
+
+     
+      
+       
+    </div>
+    </MobileView>
+    <BrowserView>
     <div className="hero-container">
     
     <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
@@ -32,6 +53,8 @@ function Cover() {
       
        
     </div>
+    </BrowserView>
+  
     
     </>
   );

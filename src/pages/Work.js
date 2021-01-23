@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link , Switch} from 'react-router-dom';
 import { useSpring, animated } from "react-spring";
+import {BrowserView, MobileView} from 'react-device-detect';
 import '../components/HeroSection.css';
 import '../components/grid.css';
 import Masonry from 'react-masonry-css';
@@ -37,9 +38,12 @@ function Work() {
   return (
     <>
     <animated.div style={props2}></animated.div>
-    <div className='hero-container'>
-       <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
-       <h1>Selected Work</h1>
+  
+        <MobileView>
+       
+  <div className='hero-container'>
+  <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+           <h1>Selected Work</h1>
        <div className='grid-container'> 
        <Masonry
         breakpointCols={breakpointColumnsObj}
@@ -49,7 +53,26 @@ function Work() {
       </Masonry>
        </div>
       
-    </div>
+           </div>
+        </MobileView>
+        <BrowserView>
+        <div className='hero-container'>
+           <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+           <h1>Selected Work</h1>
+       <div className='grid-container'> 
+       <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className="masonry-grid"
+        columnClassName="masonry-grid-column">
+         {items}
+      </Masonry>
+       </div>
+      
+           </div>
+        </BrowserView>
+    
+    
+    
     </>
   );
 }

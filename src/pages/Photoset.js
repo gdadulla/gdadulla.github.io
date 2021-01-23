@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from "react-spring";
 import { PhotoData } from '../components/PhotoData';
-
+import {BrowserView, MobileView} from 'react-device-detect';
 import Masonry from 'react-masonry-css';
 import '../components/grid.css';
 import {withRouter, RouteComponentProps} from "react-router";
@@ -21,9 +21,7 @@ function Photoset(props: Photosetid) {
        
         <>
         <animated.div style={props2}></animated.div>
-    <div className="hero-container">
-    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
-
+  
 
         {(() => {
             switch(query){
@@ -127,8 +125,11 @@ function Photoset(props: Photosetid) {
         })()}
         
 
-        <h1>{query} </h1>
-       
+      
+        <MobileView>
+        <div className="hero-container">
+        <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+    <h1>{query} </h1>
         <div className='grid-container'> 
                                     <Masonry
                                      breakpointCols={breakpointColumnsObj}
@@ -142,6 +143,26 @@ function Photoset(props: Photosetid) {
     
     
         </div>
+        </MobileView>
+        <BrowserView>
+        <div className="hero-container">
+    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+    <h1>{query} </h1>
+        <div className='grid-container'> 
+                                    <Masonry
+                                     breakpointCols={breakpointColumnsObj}
+                                     className="masonry-grid"
+                                     columnClassName="masonry-grid-column">
+                                       {items}
+                                        
+                                    </Masonry>
+                                    </div>
+
+    
+    
+        </div>
+        </BrowserView>
+       
         
 
         </>
