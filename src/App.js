@@ -21,27 +21,33 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
       <Navbar/>
       <ScrollToTop />
-          <Switch>
+      <Route render = {({ location }) => (
+        <Layout location = { location }>
+        <Switch location = { location }>
           
-            <Route exact path='/' exact component={Cover} />
-            <Route exact path='/home' component={Home} />
-            <Route exact path='/work' component={Work} />
-            {/* TO DO FOR ROUTING
-            
-                - Dynamic Routing for photography pages
-                - UHhhh Dyanmic display for those so i only have one page
-                - Switch for image sets?
-                - YEA!
-            
-            */}
-            <Route exact path='/work/:id' component={Photoset} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/resume' component={Resume} />
-            <Route exact path='/sort' component={SortingVisualizerPage} />
-          </Switch> 
+        <Route exact path='/' exact component={Cover} />
+        <Route exact path='/home' component={Home} />
+        <Route exact path='/work' component={Work} />
+        {/* TO DO FOR ROUTING
+        
+            - Dynamic Routing for photography pages
+            - UHhhh Dyanmic display for those so i only have one page
+            - Switch for image sets?
+            - YEA!
+        
+        */}
+        <Route exact path='/work/:id' component={Photoset} />
+        <Route exact path='/contact' component={Contact} />
+        <Route exact path='/resume' component={Resume} />
+        <Route exact path='/sort' component={SortingVisualizerPage} />
+        <Route component = { NotFound }/>
+      </Switch> 
+      </Layout>
+      )}/>
+          
       </HashRouter>
     </>
   );
