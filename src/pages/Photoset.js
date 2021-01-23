@@ -20,7 +20,7 @@ function Photoset(props: Photosetid) {
     return(
        
         <>
-        <animated.div style={props2}></animated.div>
+      
   
 
         {(() => {
@@ -129,6 +129,7 @@ function Photoset(props: Photosetid) {
         <MobileView>
         <div className="hero-container">
         <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+        <animated.div style={props2}></animated.div>
     <h1>{query} </h1>
         <div className='grid-container'> 
                                     <Masonry
@@ -147,6 +148,7 @@ function Photoset(props: Photosetid) {
         <BrowserView>
         <div className="hero-container">
     <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+    <animated.div style={props2}></animated.div>
     <h1>{query} </h1>
         <div className='grid-container'> 
                                     <Masonry

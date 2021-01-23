@@ -37,12 +37,13 @@ function Work() {
 
   return (
     <>
-    <animated.div style={props2}></animated.div>
+
   
         <MobileView>
        
   <div className='hero-container'>
   <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+  <animated.div style={props2}></animated.div>
            <h1>Selected Work</h1>
        <div className='grid-container'> 
        <Masonry
@@ -58,6 +59,7 @@ function Work() {
         <BrowserView>
         <div className='hero-container'>
            <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+           <animated.div style={props2}></animated.div>
            <h1>Selected Work</h1>
        <div className='grid-container'> 
        <Masonry
