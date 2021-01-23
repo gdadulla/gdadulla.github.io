@@ -26,8 +26,8 @@ function App() {
       <ScrollToTop />
           <Switch>
           
-            <Route path='/' exact component={Cover} />
-            <Route path='/home' component={Home} />
+            <Route exact path='/' exact component={Cover} />
+            <Route exact path='/home' component={Home} />
             <Route exact path='/work' component={Work} />
             {/* TO DO FOR ROUTING
             
@@ -38,9 +38,9 @@ function App() {
             
             */}
             <Route exact path='/work/:id' component={Photoset} />
-            <Route path='/contact' component={Contact} />
-            <Route path='/resume' component={Resume} />
-            <Route path='/sort' component={SortingVisualizerPage} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/resume' component={Resume} />
+            <Route exact path='/sort' component={SortingVisualizerPage} />
           </Switch> 
       </HashRouter>
     </>
