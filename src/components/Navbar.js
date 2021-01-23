@@ -37,10 +37,8 @@ function Navbar() {
                                 - Add dropdown for sub menu items
                                 - Style them
                                 - yuh
-                             
-                             */}
-                             
-                                    {item.sub.map((sub, i) => {
+                                - here it is, commented out because i think it ruins the flow of the site.
+                             {item.sub.map((sub, i) => {
                                         return (
                                         <li key={i} className={sub.cName}>
                                         <Link to={sub.path}>
@@ -49,6 +47,9 @@ function Navbar() {
                                         </li>
                                         );
                                     })}
+                             */}
+                             
+                                    
                                     
                             </>
                         );
