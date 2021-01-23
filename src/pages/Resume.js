@@ -15,7 +15,7 @@ function Resume() {
   return (
     <>
     <div className="hero-container">
-    <video src="/videos/clouds.mp4" autoPlay loop muted />
+    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
 
     <animated.div style={props2}></animated.div>
 

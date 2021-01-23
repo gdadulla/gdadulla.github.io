@@ -38,7 +38,7 @@ function Work() {
     <>
     <animated.div style={props2}></animated.div>
     <div className='hero-container'>
-       <video src="/videos/clouds.mp4" autoPlay loop muted />
+       <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
        <h1>Selected Work</h1>
        <div className='grid-container'> 
        <Masonry

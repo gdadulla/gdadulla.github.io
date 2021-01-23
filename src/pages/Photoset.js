@@ -22,7 +22,7 @@ function Photoset(props: Photosetid) {
         <>
         <animated.div style={props2}></animated.div>
     <div className="hero-container">
-    <video src="/videos/clouds.mp4" autoPlay loop muted />
+    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
 
 
         {(() => {

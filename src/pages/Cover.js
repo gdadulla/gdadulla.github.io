@@ -16,7 +16,8 @@ function Cover() {
   return (
     <>
     <div className="hero-container">
-    <video src="/videos/clouds.mp4" autoPlay loop muted />
+    
+    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
         <div>
         <Component1  />
         </div>
