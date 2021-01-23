@@ -19,7 +19,9 @@ body{
    
     margin: auto;
 }
-
+img{
+    height: 80% !important;
+}
 }
 
 .header{
