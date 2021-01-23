@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Lora';
+    font-style: normal;
+    src: url('/fonts/Lora-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Lora', Times;
+}
+
+@media screen and (max-width: 420px){
+
+    h1{
+        font-size: 45px !important;
+    }
+    
+    .header{
+    width: 100% !important;
+   
+    margin: auto;
+}
+
+}
+
+.header{
+    width: 100% !important;
+    align-content: center !important;
+    margin: auto !important;
+}
+
+.button{
+    background: white;
+    color: black;
+    border-radius: 0;
+    border-color: white;
+}
+
+.card{
+    background: none;
+    color: white;
+    text-align: center !important;
+  
+}
+
+.italics{
+    font-style: italic;
+}
+
+.resumeContent{
+    font-size: 15px;
+
+}
+
+.content{
+   margin: auto;
+   padding: 20px 20px 20px 20px;
+   border: 1px;
+   border-radius: 100%;
+   text-align: center;
+}
+
+ul{
+  padding-left: 0;
+}
+
+#toTop{
+display: none; /* Hidden by default */
+  position: fixed; 
+  bottom: 20px;
+  right: 45%;
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: orange; 
+  color: white;
+  cursor: pointer; 
+}

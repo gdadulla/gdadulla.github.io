@@ -1,0 +1,62 @@
+body{
+    color: white;
+}
+h1{
+    font-size: 75px;
+}
+
+.header, .header1{
+    text-align: center;
+    width: 100%;
+}
+.container{
+    position: relative;
+    top: 10vw;
+    text-align: center;
+}
+
+.container2{
+    top: 10vw;
+    position: relative;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.button{
+    margin: 35px;
+}
+button{
+
+    font-family: 'Lora', Times;
+    color: white;
+    border-style: solid;
+    border-radius: 100px;
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    transition: .3s;
+}
+
+.button:hover{
+    background: #fb6728;
+    border-color: #fb6728
+}
+
+@media screen and (max-width: 440px) {
+    .header1{
+        font-size:  55px !important;
+    }
+
+    .header{
+        font-size: 30px !important;
+        padding: 0px 20px 0px 0px !important;
+        width: 80% !important;
+    }
+
+    p{
+        font-size: 25px !important;
+    }
+}

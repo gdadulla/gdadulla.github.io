@@ -1,0 +1,13 @@
+.array-container {
+    padding: 25px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .array-bar {
+    width: 2px;
+    display: inline-block;
+    margin: 0 1px;
+  }
