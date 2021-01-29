@@ -38,7 +38,7 @@ function Cover() {
     <BrowserView>
     <div className="hero-container">
     
-    <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+    <video src="/videos/clouds.mp4" autoPlay loop muted/>
         <div>
         <Component1  />
         </div>
