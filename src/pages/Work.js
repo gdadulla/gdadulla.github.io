@@ -29,7 +29,7 @@ function Work() {
     return <div className="image-container">
               <img src={item.path}/>
   
-              <Link onClick={this.forceUpdate} onUpdate={() => window.scrollTo(-1,-1)} to={`/work/${item.name}`} activeClassName="current">  <div className="image-overlay"> 
+              <Link onClick={() => window.location.reload()} onUpdate={() => window.scrollTo(-1,-1)} to={`/work/${item.name}`} activeClassName="current">  <div className="image-overlay"> 
                 <div className="overlay-text"> {item.name} </div> 
               </div></Link>
            </div>

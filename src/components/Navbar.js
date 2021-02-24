@@ -27,7 +27,7 @@ function Navbar() {
                             <> 
                              
                              <li key={index} className={item.cName}>
-                                <Link to={item.path} onClick={this.forceUpdate}>
+                                <Link to={item.path} onClick={() => window.location.reload()}>
                                     <span>{item.title}</span>
                                 </Link>
                              </li>
