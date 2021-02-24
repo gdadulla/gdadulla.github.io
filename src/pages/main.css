@@ -4,6 +4,15 @@
     src: url('/fonts/Lora-Regular.ttf') format('truetype');
 }
 
+ul{
+    padding-left: 0;
+    list-style: none;
+  }
+
+.underline{
+    text-decoration: underline;
+}
+
 body{
     font-family: 'Lora', Times;
 }

@@ -24,18 +24,18 @@ function Resume() {
         <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
     <h1> Resume </h1>
         <div className="content"> 
-    <h3> Soft Skills</h3>
+    <h3 className="underline" > Soft Skills</h3>
     <ul> 
       <li> Adept, capable, and diligent learner </li>
       <li> Detail-Oriented</li>
       <li> Creative Thinker</li>
     </ul>
     
-    <h3> Hard Skills </h3>
+    <h3 className="underline"> Hard Skills </h3>
     <ul> 
       <li> Java</li>
       <li> C#</li>
-      <li> MERN Stack Development </li>
+      <li> MERN/MEAN Stack Development </li>
       <li> Javascript </li>
       <li> HTML5, CSS </li>
       <li> WordPress </li>
@@ -43,12 +43,12 @@ function Resume() {
       <li> Responsive Web Design </li>
     </ul>
 
-    <h3> Education </h3>
+    <h3 className="underline" > Education </h3>
     <h4 className="italics"> University at Albany, Albany, NY Class of 2020</h4>
     <p className="resumeContent"> Computer Science with Applied Mathematics Major, Informatics Minor</p>
     <p className="resumeContent"> GPA 3.5</p>
 
-    <h3> Job History </h3>
+    <h3 className="underline" > Job History </h3>
     <h4 className="italics"> Freelance Web Development -- 2019 - Present</h4>
     <ul>
       <li> Worked on multiple WordPress websites</li>
@@ -92,14 +92,14 @@ function Resume() {
         style= {{transform: props.xys.interpolate(trans) }}
     >
     <div className="content"> 
-    <h3> Soft Skills</h3>
+    <h3 className="underline"> Soft Skills</h3>
     <ul> 
       <li> Adept, capable, and diligent learner </li>
       <li> Detail-Oriented</li>
       <li> Creative Thinker</li>
     </ul>
     
-    <h3> Hard Skills </h3>
+    <h3 className="underline"> Hard Skills </h3>
     <ul> 
       <li> Java</li>
       <li> C#</li>
@@ -111,12 +111,12 @@ function Resume() {
       <li> Responsive Web Design </li>
     </ul>
 
-    <h3> Education </h3>
+    <h3 className="underline"> Education </h3>
     <h4 className="italics"> University at Albany, Albany, NY Class of 2020</h4>
     <p className="resumeContent"> Computer Science with Applied Mathematics Major, Informatics Minor</p>
     <p className="resumeContent"> GPA 3.5</p>
 
-    <h3> Job History </h3>
+    <h3 className="underline"> Job History </h3>
     <h4 className="italics"> Freelance Web Development -- 2019 - Present</h4>
     <ul>
       <li> Worked on multiple WordPress websites</li>
@@ -138,7 +138,7 @@ function Resume() {
       <li> Tested applications</li>
       <li> Day-to-day IT helpdesk responsibilities </li>
     </ul>
-    <h3> Hobbies </h3>
+    <h3 className="underline"> Hobbies </h3>
     <ul>
       <li> Photography, mainly street/documentary style film photography</li>
         <ul>
