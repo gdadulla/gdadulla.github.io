@@ -27,7 +27,7 @@ function Navbar() {
                             <> 
                              
                              <li key={index} className={item.cName}>
-                                <Link to={item.path}>
+                                <Link to={item.path} onClick={this.forceUpdate}>
                                     <span>{item.title}</span>
                                 </Link>
                              </li>
