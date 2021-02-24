@@ -3,14 +3,14 @@ import React from 'react'
 export const SidebarData= [
     {
         title: 'Home',
-        path: '/',
+        path: '/#',
         cName: 'nav-text',
         sub: []
     },
 
     {
         title: 'Selected Work',
-        path: '/work',
+        path: '/#/work',
         cName: 'nav-text',
         sub: [
             {
@@ -33,14 +33,14 @@ export const SidebarData= [
 
     {
         title: 'Resume',
-        path: '/resume',
+        path: '/#/resume',
         cName: 'nav-text',
         sub: []
     },
 
     {
         title: 'Contact',
-        path: '/contact',
+        path: '/#/contact',
         cName: 'nav-text',
         sub: []
     }
