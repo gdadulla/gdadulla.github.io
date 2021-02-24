@@ -11,9 +11,9 @@ export default function Component2(){
             <animated.div style={props2}> 
 
              <div style={container}>
-            <Link to="/work"><button className="button"> Photography </button></Link>
+            <Link to="/work" onClick={this.forceUpdate}><button className="button"> Photography </button></Link>
             <br></br>
-            <Link to="/resume"><button className="button"> Resume </button></Link>
+            <Link to="/resume" onClick={this.forceUpdate}><button className="button"> Resume </button></Link>
             </div>
             </animated.div>
     )
