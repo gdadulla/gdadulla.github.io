@@ -11,7 +11,7 @@ export default function Component2(){
             <animated.div style={props2}> 
 
              <div style={container}>
-            <Link to="/home"><button className="button"> Photography </button></Link>
+            <Link to="/work"><button className="button"> Photography </button></Link>
             <br></br>
             <Link to="/resume"><button className="button"> Resume </button></Link>
             </div>

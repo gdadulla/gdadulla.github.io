@@ -58,7 +58,7 @@ function Work() {
         </MobileView>
         <BrowserView>
         <div className='hero-container'>
-           <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+           <video src="/videos/clouds.mp4" autoPlay loop muted/>
            <animated.div style={props2}></animated.div>
            <h1>Selected Work</h1>
        <div className='grid-container'> 
