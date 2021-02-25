@@ -16,12 +16,13 @@ function Resume() {
     <>
    
 
-    <animated.div style={props2}></animated.div>
 
        
         <MobileView maxDeviceWidth={440}>
         <div className="hero-container">
         <img src="/videos/mobileBackground.jpg" className="mobileBackground"></img>
+        
+    <animated.div style={props2}></animated.div>
     <h1> Resume </h1>
         <div className="content"> 
     <h3 className="underline" > Soft Skills</h3>
@@ -84,6 +85,8 @@ function Resume() {
         <BrowserView>
         <div className="hero-container">
     <video src="/videos/clouds.mp4" autoPlay loop muted playsinline/>
+    
+    <animated.div style={props2}></animated.div>
     <h1> Resume </h1>
         <animated.div
         class="card"

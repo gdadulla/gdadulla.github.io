@@ -87,5 +87,19 @@ export const PhotoData= [
        '/pictures/concert/28.jpg',
        '/pictures/concert/29.jpg'
     ]
+},
+{
+    name: 'ualbany',
+    photos: [
+       '/pictures/ualbany/1.jpg'
+     
+    ]
+},
+{
+    name: 'b/w',
+    photos: [
+       '/pictures/bw/1.jpg'
+     
+    ]
 }
 ]
