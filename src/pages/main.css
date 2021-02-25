@@ -4,7 +4,7 @@
     src: url('/fonts/Lora-Regular.ttf') format('truetype');
 }
 
-a:hover {
+a:hover, button:hover {
     cursor:pointer;
 }
 
