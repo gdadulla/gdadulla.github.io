@@ -18,7 +18,7 @@ function Contact() {
       </div>
     </div>
     </MobileView>
-    <BrowserView>\
+    <BrowserView>
     
     <div className='hero-container'>
        <video src="/videos/clouds.mp4" autoPlay loop muted />
