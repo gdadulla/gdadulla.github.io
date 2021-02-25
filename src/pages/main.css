@@ -4,6 +4,10 @@
     src: url('/fonts/Lora-Regular.ttf') format('truetype');
 }
 
+a:hover {
+    cursor:pointer;
+}
+
 ul{
     padding-left: 0;
     list-style: none;

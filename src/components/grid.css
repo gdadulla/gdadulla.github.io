@@ -41,6 +41,7 @@
   
   .image-container:hover .image-overlay {
     opacity: .6;
+    cursor: pointer;
   }
   .overlay-text {
     color: white;
