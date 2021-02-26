@@ -29,7 +29,7 @@ body{
     
     .header{
     width: 100% !important;
-   
+    padding: 0 !important;
     margin: auto;
 }
 .img{
