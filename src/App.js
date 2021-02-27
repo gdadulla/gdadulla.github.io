@@ -3,7 +3,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Work from './pages/Work';
-import Contact from './pages/Contact';
+import About from './pages/About';
 import Resume from './pages/Resume';
 import Photoset from './pages/Photoset';
 import ScrollToTop from './components/ScrollToTop';
@@ -38,7 +38,7 @@ function App() {
             
             */}
             <Route exact path='/work/:id' component={Photoset} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/about' component={About} />
             <Route path='/resume' component={Resume} />
             <Route path='/sort' component={SortingVisualizerPage} />
           </Switch> 

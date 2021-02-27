@@ -39,8 +39,8 @@ export const SidebarData= [
     },
 
     {
-        title: 'Contact',
-        path: '/#/contact',
+        title: 'About Me',
+        path: '/#/about',
         cName: 'nav-text',
         sub: []
     }

@@ -14,7 +14,7 @@ export default function Component1(){
             <h1 className="header1"> Welcome,</h1>
              <h1 className="header">I'm Germaine and this is my portfolio.</h1>
           
-            <p> Find out more. </p>
+            <p className="coverContent"> Find out more. </p>
             </div>
             </animated.div>
     )
