@@ -38,6 +38,18 @@ body{
 
 @media screen and (max-width: 420px){
 
+    .me{
+        float: none;
+        width:  80%;
+        padding-right: 0;
+        padding-left: 10%;
+    }
+    .aboutContent{
+        float: none !important;
+        width: 80%;
+        text-align: center;
+        padding-left: 10%;
+    }
     h1{
         font-size: 45px !important;
     }

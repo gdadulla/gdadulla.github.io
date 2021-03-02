@@ -47,7 +47,7 @@ function Resume() {
     <h3 className="underline" > Education </h3>
     <h4 className="italics"> University at Albany, Albany, NY Class of 2020</h4>
     <p className="resumeContent"> Computer Science with Applied Mathematics Major, Informatics Minor</p>
-    <p className="resumeContent"> GPA 3.5</p>
+    
 
     <h3 className="underline" > Job History </h3>
     <h4 className="italics"> Freelance Web Development -- 2019 - Present</h4>
