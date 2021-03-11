@@ -84,3 +84,9 @@
       text-align: center;
     }
   }
+
+  @media screen and (max-width: 830px){
+    .image-container > img{
+      height: 60% !important;
+    }
+  }
