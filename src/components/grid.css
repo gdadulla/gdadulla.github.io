@@ -89,4 +89,26 @@
     .image-container > img{
       height: 60% !important;
     }
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100% ;
+      opacity: .4 !important;
+      background-color: #676b6c;
+    }
+    .overlay-text {
+      color: white;
+      font-size: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      opacity: 1 !important;
+     
+      text-align: center;
+    }
+    
   }
