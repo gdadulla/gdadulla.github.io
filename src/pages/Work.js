@@ -21,7 +21,7 @@ function Work() {
     {id: 4, name: 'kaaterskills', path: "/pictures/katterskills/1.jpg"},
     {id: 5, name: 'concerts', path: "/pictures/concert/2.jpg"},
     {id: 6, name: 'ualbany', path: "/pictures/ualbany/1.jpg"},
-    {id: 7, name: 'b/w', path: "/pictures/bw/1.jpg"}
+    {id: 7, name: 'b&w', path: "/pictures/bw/1.jpg"}
   ];
 
   items = items.map(function(item) {

@@ -106,10 +106,10 @@ function Photoset(props: Photosetid) {
                         })}    
                         </> 
                     );
-                case 'b/w':
+                case 'b&w':
                     return (
                         <>
-                        {PhotoData.filter(item => item.name.includes('b/w')).map(filtered => {
+                        {PhotoData.filter(item => item.name.includes('b&w')).map(filtered => {
                             items = filtered.photos;
                             items = items.map(function(item) {
                                 return <div className="image-container">

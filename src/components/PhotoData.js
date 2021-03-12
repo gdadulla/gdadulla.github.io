@@ -14,7 +14,44 @@ export const PhotoData= [
         '/pictures/nyc/10.jpg',
         '/pictures/nyc/11.jpg',
         '/pictures/nyc/12.jpg',
-        '/pictures/nyc/13.jpg'
+        '/pictures/nyc/13.jpg',
+        '/pictures/nyc/14.jpg',
+        '/pictures/nyc/15.jpg',
+        '/pictures/nyc/16.jpg',
+        '/pictures/nyc/17.jpg',
+        '/pictures/nyc/18.jpg',
+        '/pictures/nyc/19.jpg',
+        '/pictures/nyc/20.jpg',
+        '/pictures/nyc/21.jpg',
+        '/pictures/nyc/22.jpg',
+        '/pictures/nyc/23.jpg',
+        '/pictures/nyc/24.jpg',
+        '/pictures/nyc/25.jpg',
+        '/pictures/nyc/26.jpg',
+        '/pictures/nyc/27.jpg',
+        '/pictures/nyc/28.jpg',
+        '/pictures/nyc/29.jpg',
+        '/pictures/nyc/30.jpg',
+        '/pictures/nyc/31.jpg',
+        '/pictures/nyc/32.jpg',
+        '/pictures/nyc/33.jpg',
+        '/pictures/nyc/34.jpg',
+        '/pictures/nyc/35.jpg',
+        '/pictures/nyc/36.jpg',
+        '/pictures/nyc/37.jpg',
+        '/pictures/nyc/38.jpg',
+        '/pictures/nyc/39.jpg',
+        '/pictures/nyc/40.jpg',
+        '/pictures/nyc/41.jpg',
+        '/pictures/nyc/42.jpg',
+        '/pictures/nyc/43.jpg',
+        '/pictures/nyc/44.jpg',
+        '/pictures/nyc/45.jpg',
+        '/pictures/nyc/46.jpg',
+        '/pictures/nyc/47.jpg',
+        '/pictures/nyc/48.jpg',
+        '/pictures/nyc/49.jpg'
+
     ]
 },
 {
@@ -28,7 +65,16 @@ export const PhotoData= [
         '/pictures/portraits/6.jpg',
         '/pictures/portraits/7.jpg',
         '/pictures/portraits/8.jpg',
-        '/pictures/portraits/9.jpg'
+        '/pictures/portraits/9.jpg',
+        '/pictures/portraits/10.jpg',
+        '/pictures/portraits/11.jpg',
+        '/pictures/portraits/12.jpg',
+        '/pictures/portraits/13.jpg',
+        '/pictures/portraits/14.jpg',
+        '/pictures/portraits/15.jpg',
+        '/pictures/portraits/16.jpg',
+        '/pictures/portraits/17.jpg',
+        '/pictures/portraits/18.jpg',
     ]
 },
 {
@@ -85,21 +131,93 @@ export const PhotoData= [
        '/pictures/concert/26.jpg',
        '/pictures/concert/27.jpg',
        '/pictures/concert/28.jpg',
-       '/pictures/concert/29.jpg'
+       '/pictures/concert/29.jpg',
+       '/pictures/concert/30.jpg',
+       '/pictures/concert/31.jpg',
+       '/pictures/concert/32.jpg',
+       '/pictures/concert/33.jpg',
+       '/pictures/concert/34.jpg',
+       '/pictures/concert/35.jpg',
+       '/pictures/concert/36.jpg',
+       '/pictures/concert/37.jpg',
+       '/pictures/concert/38.jpg',
+       '/pictures/concert/39.jpg',
+       '/pictures/concert/40.jpg',
+       '/pictures/concert/41.jpg',
+       '/pictures/concert/42.jpg',
+       '/pictures/concert/43.jpg',
+       '/pictures/concert/44.jpg',
+       '/pictures/concert/45.jpg',
+       '/pictures/concert/46.jpg',
+       '/pictures/concert/47.jpg',
+       '/pictures/concert/48.jpg',
     ]
 },
 {
     name: 'ualbany',
     photos: [
-       '/pictures/ualbany/1.jpg'
+       '/pictures/ualbany/1.jpg',
+       '/pictures/ualbany/2.jpg',
+       '/pictures/ualbany/3.jpg',
+       '/pictures/ualbany/4.jpg',
+       '/pictures/ualbany/5.jpg',
+       '/pictures/ualbany/6.jpg',
+       '/pictures/ualbany/7.jpg',
+       '/pictures/ualbany/8.jpg',
+       '/pictures/ualbany/9.jpg',
+       '/pictures/ualbany/10.jpg',
+       '/pictures/ualbany/11.jpg',
+       '/pictures/ualbany/12.jpg',
      
     ]
 },
 {
-    name: 'b/w',
+    name: 'b&w',
     photos: [
-       '/pictures/bw/1.jpg'
+       '/pictures/bw/1.jpg',
+       '/pictures/bw/2.jpg',
+       '/pictures/bw/3.jpg',
+       '/pictures/bw/4.jpg',
+       '/pictures/bw/5.jpg',
+       '/pictures/bw/6.jpg',
+       '/pictures/bw/7.jpg',
+       '/pictures/bw/8.jpg',
+       '/pictures/bw/9.jpg',
+       '/pictures/bw/10.jpg',
+       '/pictures/bw/11.jpg',
+       '/pictures/bw/12.jpg',
+       '/pictures/bw/13.jpg',
+       '/pictures/bw/14.jpg',
+       '/pictures/bw/15.jpg',
+       '/pictures/bw/16.jpg',
+       '/pictures/bw/17.jpg',
+       '/pictures/bw/18.jpg'
+     
+    ]
+},
+{
+    name: 'streetmeat',
+    photos: [
+       '/pictures/streetmeat/1.jpg',
+       '/pictures/streetmeat/2.jpg',
+       '/pictures/streetmeat/3.jpg',
+       '/pictures/streetmeat/4.jpg',
+       '/pictures/streetmeat/5.jpg',
+       '/pictures/streetmeat/6.jpg',
+       '/pictures/streetmeat/7.jpg',
+       '/pictures/streetmeat/8.jpg',
+       '/pictures/streetmeat/9.jpg',
+       '/pictures/streetmeat/10.jpg',
+       '/pictures/streetmeat/11.jpg',
+       '/pictures/streetmeat/12.jpg',
+       '/pictures/streetmeat/13.jpg',
+       '/pictures/streetmeat/14.jpg',
+       '/pictures/streetmeat/15.jpg',
+       '/pictures/streetmeat/16.jpg',
+       '/pictures/streetmeat/17.jpg',
+       '/pictures/streetmeat/18.jpg'
      
     ]
 }
+
 ]
