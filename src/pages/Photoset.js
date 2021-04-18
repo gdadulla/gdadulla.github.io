@@ -99,6 +99,8 @@ function Photoset(props: Photosetid) {
                         {PhotoData.filter(item => item.name.includes('kaaterskills')).map(filtered => {
                             items = filtered.photos;
                             items = items.map(function(item) {
+                                var url = {item};
+
                                 return <div className="image-container">
                                           <img src={item}/>
                                        </div>

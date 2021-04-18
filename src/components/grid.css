@@ -14,6 +14,9 @@
   .image-container > img{
     width: 100% !important;
   }
+  .test{
+    object-fit:fill;
+  }
   .grid-container{
       width: 90%;
   }
