@@ -57,9 +57,9 @@ function Navbar() {
                 </ul>
                 
                 <div className="favicon">
-                    <a href="https://www.instagram.com/germ_ine/?hl=en"><img src="instagram.png"></img></a>
-                    <a href="https://www.linkedin.com/in/gdadulla1124/"><img src="linkedin.png"></img></a>
-                    <a href="https://github.com/gdadulla"><img src="github.png"></img></a>
+                    <a href="https://www.instagram.com/germ_ine/?hl=en" target="_blank"><img src="instagram.png"></img></a>
+                    <a href="https://www.linkedin.com/in/gdadulla1124/" target="_blank"><img src="linkedin.png"></img></a>
+                    <a href="https://github.com/gdadulla"><img src="github.png" target="_blank"></img></a>
                 </div>
             </nav>
            
